@@ -1,5 +1,6 @@
 # simple-uniqueid
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+
 Generate simple unique ids.
 
 _Note: This is not a replacement for a real crypto library but is intended for
