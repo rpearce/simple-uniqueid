@@ -2,6 +2,11 @@
 This small package relies on `Math.random().toString(16).slice(-4)` to generate
 32 unique characters with an optional string prefix.
 
+## Installation
+```js
+$ npm i @rpearce/simple-uniqueid
+```
+
 ## Usage
 
 ```js
