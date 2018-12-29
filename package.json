@@ -1,0 +1,54 @@
+{
+  "name": "simple-uniqueid",
+  "version": "0.1.0",
+  "description": "Generate simple unique ids",
+  "main": "index.js",
+  "files": [
+    "AUTHORS",
+    "LICENSE",
+    "README.md",
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rpearce/simple-uniqueid.git"
+  },
+  "homepage": "https://github.com/rpearce/simple-uniqueid",
+  "bugs": "https://github.com/rpearce/simple-uniqueid/issues",
+  "author": "Robert Pearce <me@robertwpearce.com>",
+  "contributors": [
+    "Robert Pearce <me@robertwpearce.com> (https://robertwpearce.com)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "uniqueid",
+    "id",
+    "id-generator"
+  ],
+  "tags": [
+    "uniqueid",
+    "id",
+    "id-generator"
+  ],
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "lint": "eslint --ext .js .",
+    "prepublishOnly": "npm run lint",
+    "test": "npm run lint && jest --coverage --no-cache"
+  },
+  "jest": {
+    "clearMocks": true,
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.js"
+    ]
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^5.4.1",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.11.1",
+    "eslint-plugin-jest": "^22.1.2",
+    "jest": "^23.6.0"
+  }
+}
