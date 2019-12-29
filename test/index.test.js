@@ -1,4 +1,4 @@
-const uniqueId = require('../src')
+const uniqueId = require('../')
 
 const regex = /^[a-z0-9]{32}$/
 const prefixRegex = /^prefix-[a-z0-9]{32}$/
